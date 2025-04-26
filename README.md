@@ -22,10 +22,10 @@ structure: |
   │   └── test/java/bgu/spl/mics/...
   └── README.md
 
-build: |
+build: 
   mvn clean install
 
-run: |
+run: 
   mvn exec:java -Dexec.mainClass="bgu.spl.mics.application.GurionRockRunner"
 
 notes:

@@ -26,7 +26,7 @@ build:
   mvn clean install
 
 run: 
-  mvn exec:java -Dexec.mainClass="bgu.spl.mics.application.GurionRockRunner"
+  mvn exec:java -Dexec.mainClass="bgu.spl.mics.application.GurionRockRunner" -Dexec.args="configuration_file.json"
 
 notes:
   - Built around event-driven, message-passing concurrency design.

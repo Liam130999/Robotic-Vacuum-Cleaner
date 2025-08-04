@@ -82,7 +82,7 @@ mvn exec:java -Dexec.mainClass="bgu.spl.mics.application.GurionRockRunner" -Dexe
 ## Extensibility Ideas
 
 - Offload local memory to cloud storage for shared access and scalable analysis.
-- Add AI Agent for predictive tracking (e.g., LSTM for moving object trajectory).
+- Add AI Agent for predictive tracking.
 - REST API to expose real-time output.
 - Add confidence scores to landmarks using classification models (e.g., CNN).
 - Integrate with Grafana and Prometheus for real-time metrics visualization.

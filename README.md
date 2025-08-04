@@ -21,7 +21,7 @@ Each sensor is implemented as a **Microservice** running asynchronously, communi
 
 ## Key Features
 
-- Multithreaded Microservices – each sensor runs independently with configurable frequency.
+- Multithreaded Microservices - each sensor runs independently with configurable frequency.
 - Event-driven Communication – implemented using a custom Message Bus (pub-sub pattern).
 - Simulated Sensors – LiDAR, Camera and Pose modules load real-time data from JSON input.
 - Fusion SLAM Engine – merges data from all sensors to build a dynamic environmental map (landmarks).

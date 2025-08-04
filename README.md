@@ -1,4 +1,4 @@
-# Robotic Vacuum Cleaner Simulation – GurionRock
+# Robotic Vacuum Cleaner Simulation - GurionRock
 
 A **multithreaded SLAM simulation** built in Java, modeling a robotic vacuum cleaner that performs **environmental mapping and object detection** using virtual sensors (LiDAR, Camera, Pose).  
 Each sensor is implemented as a **Microservice** running asynchronously, communicating via an **event-driven Message Bus** to a central **Fusion SLAM Service**.
@@ -22,11 +22,11 @@ Each sensor is implemented as a **Microservice** running asynchronously, communi
 ## Key Features
 
 - Multithreaded Microservices - each sensor runs independently with configurable frequency.
-- Event-driven Communication – implemented using a custom Message Bus (pub-sub pattern).
-- Simulated Sensors – LiDAR, Camera and Pose modules load real-time data from JSON input.
-- Fusion SLAM Engine – merges data from all sensors to build a dynamic environmental map (landmarks).
-- Statistical Monitoring – runtime stats and detection metrics collected into a final output JSON.
-- Testable & Modular – written with separation of concerns and tested using JUnit 5.
+- Event-driven Communication - implemented using a custom Message Bus (pub-sub pattern).
+- Simulated Sensors - LiDAR, Camera and Pose modules load real-time data from JSON input.
+- Fusion SLAM Engine - merges data from all sensors to build a dynamic environmental map (landmarks).
+- Statistical Monitoring - runtime stats and detection metrics collected into a final output JSON.
+- Testable & Modular - written with separation of concerns and tested using JUnit 5.
 
 ---
 
